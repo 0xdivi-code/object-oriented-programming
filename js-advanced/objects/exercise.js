@@ -1,10 +1,7 @@
 // Stopwatch
 
-function Stopwatch(duration, startTime, endTime, running) {
-    this.duration = duration;
-    this.startTime = startTime;
-    this.endTime = endTime;
-    this.running = running;
+function Stopwatch() {
+    let duration, startTime, endTime, running = 0;
     
     this.reset = function(){
         startTime = null;
@@ -30,4 +27,3 @@ function Stopwatch(duration, startTime, endTime, running) {
 }
 
 const sw = new Stopwatch(0);
-sw.stop()
