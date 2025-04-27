@@ -1,3 +1,14 @@
+// Function Declaration
+
+ function sayHello(){
+
+ }
+
+// Function Expression
+
+ const sayBye = function(){
+
+ }
 // Perform a task
 // function greet(firstName, lastName, emoji){
 //     console.log('Hello' + ' ' + firstName +' '+ lastName + ' '+ emoji );
